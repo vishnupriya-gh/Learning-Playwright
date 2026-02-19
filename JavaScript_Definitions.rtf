@@ -1,0 +1,28 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Calibri;}}
+\fs24
+\b JavaScript Definitions\b0\par
+\par
+\b V8 Engine:\b0\par
+High-performance JavaScript engine by Google (used in Chrome and Node.js). It parses JS, runs an interpreter (Ignition), and JIT-compiles hot code with an optimizing compiler (TurboFan). Optimizations include hidden classes and inline caching; it manages memory with a garbage collector.\par
+\par
+\b Declaration keywords:\b0\par
+\b var:\b0  Function-scoped (or global). Declaration is hoisted and initialized to undefined (no TDZ). Can be re-declared and re-assigned. Not block-scoped.\par
+\b let:\b0  Block-scoped. Declaration is hoisted but kept in the Temporal Dead Zone (TDZ) until initialized; cannot be re-declared in the same scope, but can be re-assigned.\par
+\b const:\b0  Block-scoped and must be initialized at declaration; hoisted into TDZ until initialization. The binding is immutable (cannot be re-assigned), but if the value is an object/array the contents can still be mutated.\par
+\par
+\b Keyword:\b0\par
+A reserved word that has special meaning in the language grammar (e.g., if, function, class, var, let, const). Keywords cannot be used as identifiers where the grammar forbids them.\par
+\par
+\b Identifier:\b0\par
+A user-defined name for variables, functions, classes, parameters, etc. Must follow JS naming rules (letters, $, _, digits not at start), is case-sensitive, and cannot be a reserved keyword.\par
+\par
+\b Literal:\b0\par
+A source-code representation of a fixed value. Examples: numeric 42, string "hi", boolean true/false, null, regex /ab/, array [1,2], object {a:1}. Literals evaluate directly to the value they represent.\par
+\par
+\b Operator:\b0\par
+A token (symbol or keyword) that performs operations on operands. Examples: arithmetic +, -; comparison ===, !==; logical &&, ||; assignment =, +=; unary !, typeof; spread .... Operators have defined precedence and associativity which affect evaluation order.\par
+\par
+\b Examples / Next steps:\b0\par
+If you want code examples (scoping/hoisting, TDZ, operator precedence) or a true .docx file instead of RTF, tell me and I will add them.\par
+}

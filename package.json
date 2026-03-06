@@ -1,0 +1,27 @@
+{
+  "name": "learning-playright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnupriya-gh/Learning-Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vishnupriya-gh/Learning-Playwright/issues"
+  },
+  "homepage": "https://github.com/vishnupriya-gh/Learning-Playwright#readme",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}

@@ -16,7 +16,7 @@ function printValue()
 }
 
 // const
-console.log("------- let -----");
+console.log("------- Let -----");
 let b = 10; //Global scope
 console.log(b);
 printValuelet(); 
@@ -32,7 +32,7 @@ function printValuelet()
     console.log(b);
 }
 
-console.log("------- let -----");
+console.log("------- const -----");
 
 console.log(pi);
 const pi = 3.14;
